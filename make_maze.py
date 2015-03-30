@@ -4,11 +4,7 @@ n = int(input())
 while n > 30:
         n = int(input());
 start_x = int(input())
-while start_x >= 0 and start_x < n:
-        start_x = int(input());
 start_y = int(input())
-while start_y >= 0 and start_y < n:
-        start_y = int(input());
 seed = input()
 output_file = input()
 random.seed(seed)
